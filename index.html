@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">Gabriel <span>Morais</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Olá, Sou o <span>Gabriel</span></h1>
+      <h3><span>Desenvolvedor Full-stack</span></h3>
+      <p>Desenvolvedor focado em criar soluções digitais, modernas e eficientes. Buscando transformar ideias em projetos reais com código limpo e funcional.</p>
+      <div class="social-icons">
+        <a href="https://github.com/gmmmorais25-lgtm?tab=repositories" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/gabriel-morais-831933374/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/_morais.gabriel_/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
+      <div class="btn-group">
+        <a href="imagens/Currículo_Gabriel Maciel Morais.docx" target="_blank" class="btn">Meu currículo <i class="bx bx-file"></i></a>
+        <a href="https://wa.me/5511997287054" target="_blank" class="btn">WhatsApp <i class="bx bxl-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="imagens/Foto minha.jpeg" alt="Gabriel">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="imagens/Foto minha2.jpeg" alt="Foto minha about">
+    </div>
+    <div class="about-content">
+      <h2>Sobre <span>Mim</span></h2>
+      <p>Minha trajetória começou na área de logística, mas meu interesse por tecnologia me levou para o universo do desenvolvimento Full-stack.</p>
+      <p>Atualmente, estou aprimorando minhas habilidades em desenvolvimento web, explorando HTML, CSS, JavaScript e Java para back-end, além de aprender bancos de dados. Paralelamente, dedico-me a aprimorar meu inglês, buscando comunicação eficiente e oportunidades internacionais.</p>
+      <p>Meu objetivo é transformar conhecimento em projetos práticos, criando soluções digitais modernas e funcionais, e estar preparado para iniciar minha carreira como desenvolvedor Full-stack</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <h2 class="heading">Serviços</h2>
+    <div class="services-container">
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bxl-figma"></i>
+          <h4>Desenvolvimento Web</h4>
+          <p>Criação de páginas modernas, interativas e responsivas com HTML, CSS e JavaScript.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bx-code"></i>
+          <h4>Desenvolvimento Java</h4>
+          <p>Lógica de programação e orientação a objetos para aplicações back-end.</p>
+        </div>
+      </div>
+      <div class="service-box">
+        <div class="service-info">
+          <i class="bx bx-code-curly"></i>
+          <h4>Banco de dados</h4>
+          <p>Modelagem de dados e SQL para estruturação de sistemas dinâmicos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (CORRIGIDA) -->
+  <section class="projects" id="projetos">
+    <h2 class="heading">Projetos</h2>
+    <div class="project-box">
+
+      <!-- Clone Instagram -->
+      <div class="project-card">
+        <img src="imagens/Clone-insta.png" alt="Clone Insta">
+        <h3>Clone Instagram</h3>
+        <p>Layout responsivo recriando a interface do Instagram. Utilizado <strong>HTML e CSS</strong></p>
+        <div class="btn-group">
+          <a href="https://tela-de-login-clon.vercel.app/" target="_blank" class="btn">Ver Projeto</a>
+          <a href="https://github.com/gmmmorais25-lgtm/Tela-de-login-Instagram" target="_blank" class="btn"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" data-progress="100"></div>
+        </div>
+        <span class="progress-text">100</span>
+      </div>
+
+      <!-- hDC HOST -->
+      <div class="project-card">
+  <img src="imagens/HDC Host.png" alt="HDC Host">
+  <h3>HDC HOST</h3>
+  <p>Landing page HDC HOST, hospedagem de sites de forma responsiva. Utilizado <strong>HTML e CSS</strong></p>
+  <div class="btn-group">
+    <a href="https://hdchost-sigma.vercel.app/" target="_blank" class="btn">Ver Projeto</a>
+    <a href="https://github.com/gmmmorais25-lgtm/hDC-HOST" target="_blank" class="btn">
+      <i class="bx bxl-github"></i>
+    </a>
+  </div>
+  <div class="progress-container">
+    <div class="progress-bar" data-progress="100"></div>
+  </div>
+  <span class="progress-text">100</span>
+</div>
+
+      <!-- Tabuada Interativa -->
+      <div class="project-card">
+        <img src="imagens/Tabuada.png" alt="Tabuada">
+        <h3>Tabuada Interativa</h3>
+        <p>Gerador dinâmico de tabuadas . Utilizado <strong>HTML, CSS e Javascript.</strong></p>
+        <div class="btn-group">
+          <a href="https://tabuada-log7mqmdw-gmmmorais25-lgtms-projects.vercel.app/" target="_blank" class="btn">Ver Projeto</a>
+          <a href="https://github.com/gmmmorais25-lgtm/Tabuada" target="_blank" class="btn"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" data-progress="100"></div>
+        </div>
+        <span class="progress-text">100</span>
+      </div>
+
+      <!-- Gerador QR CODE -->
+      <div class="project-card">
+        <img src="imagens/GeradorQRCode.png" alt="QR Code">
+        <h3>Gerador QR CODE</h3>
+        <p>Ferramenta prática para criar QR Codes via link ou texto. Utilizado <strong>HTML, CSS e Javascript.</strong></p>
+        <div class="btn-group">
+          <a href="https://gerador-de-qr-code-9cfdejhae-gmmmorais25-lgtms-projects.vercel.app/" target="_blank" class="btn">Ver Projeto</a>
+          <a href="https://github.com/gmmmorais25-lgtm/Gerador-de-QR-Code" target="_blank" class="btn"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" data-progress="100"></div>
+        </div>
+        <span class="progress-text">100</span>
+      </div>
+
+      <!-- Página Palmeiras -->
+      <div class="project-card">
+        <img src="imagens/Palmeiras.jpg" alt="Palmeiras">
+        <h3>Página Palmeiras</h3>
+        <p>Página interativa com informações sobre o clube alviverde. Utilizado HTML, CSS e Javascript.</p>
+        <div class="btn-group">
+          <a href="#" class="btn">Em andamento...</a>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" data-progress="5"></div>
+        </div>
+        <span class="progress-text">100</span>
+      </div>
+
+      <!-- Meu Portfólio -->
+      <div class="project-card">
+        <img src="imagens/Foto minha.jpeg" alt="Portfolio">
+        <h3>Meu Portfólio</h3>
+        <p>Reunindo meus projetos e trajetória profissional. Utilizado <strong>HTML, CSS e JavaScript</strong></p>
+        <div class="btn-group">
+          <a href="https://github.com/gmmmorais25-lgtm/Portfolio-Gabriel-Morais" target="_blank" class="btn"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" data-progress="100"></div>
+        </div>
+        <span class="progress-text">100</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contato">
+    <h2 class="heading">Me <span>Contrate</span></h2>
+    <form action="https://formspree.io/f/xvzbkevp" method="post">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" name="nome" placeholder="Nome Completo">
+          <input type="email" name="email" placeholder="E-mail">
+        </div>
+        <div class="input-box">
+          <input type="tel" name="telefone" placeholder="Telefone">
+          <input type="text" name="assunto" placeholder="Assunto">
+        </div>
+      </div>
+      <div class="input-group-2">
+        <textarea name="mensagem" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar Mensagem" class="btn">
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+<footer class="footer">
+  <!-- Ícones sociais -->
+  <div class="social-icons">
+    <a href="https://github.com/gmmmorais25-lgtm?tab=repositories" target="_blank">
+      <i class="bx bxl-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/gabriel-moraisdev/" target="_blank">
+      <i class="bx bxl-linkedin-square"></i>
+    </a>
+    <a href="https://www.instagram.com/_morais.gabriel_/" target="_blank">
+      <i class="bx bxl-instagram-alt"></i>
+    </a>
+  </div>
+
+  <!-- Links rápidos -->
+  <ul class="list">
+    <li><a href="#home">FAQ</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#projetos">Projects</a></li>
+    <li><a href="#contato">Contact</a></li>
+  </ul>
+
+  <!-- Copyright -->
+  <p class="copyright">© Gabriel Morais | All Rights Reserved</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
